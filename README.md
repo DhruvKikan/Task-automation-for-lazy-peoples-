@@ -1,2 +1,5 @@
-# Task-automation-for-lazy-peoples-
-Just a simp(le) scrcpy automater for windows made with the help of @shouryade
+# Task automation repo for lazy peoples
+
+For now, this only contians a shrimple scrcpy automatic connector powershell script
+
+- Made with the help of @shouryade
