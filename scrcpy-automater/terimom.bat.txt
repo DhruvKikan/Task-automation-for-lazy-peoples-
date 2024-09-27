@@ -1,0 +1,8 @@
+$output = bash -c "/mnt/c/Programming/Tools/scrcpy/adb.exe devices | tail -n 2 | head -n 1 | awk '{print \`$1}'"
+
+if ($output -eq "162e71aa") {
+    Write-Host "Device Found, starting scrcpy"
+    Start-Process C:\Programming\Tools\scrcpy\scrcpy.exe -s '162e71aa'
+} else {
+    Write-Host "Device not found yet. Retry bitch"
+}
